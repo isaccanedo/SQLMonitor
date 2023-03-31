@@ -4,9 +4,9 @@ Extensão de monitoramento SQL
 ## Caso de uso
 Esta extensão pode ser usada para consultar um banco de dados compatível com ANSI SQL e os valores resultantes podem
 ser usados como métricas no AppDynamics.
-The connection to the database is established through a JDBC connect 
-and you will have to use a "connector" JDBC driver jar file in order to have the 
-extension connect and query the database.
+A conexão com o banco de dados é estabelecida por meio de uma conexão JDBC
+e você terá que usar um arquivo jar do driver JDBC "conector" para ter o
+extensão conectar e consultar o banco de dados.
 
 The metrics reported by the extension can be modified as per the user's requirements.
  This extension can be used to query and pull metrics from any SQL based database.
