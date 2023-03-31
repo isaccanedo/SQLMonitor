@@ -14,7 +14,7 @@ Essa extensão pode ser usada para consultar e extrair métricas de qualquer ban
 ## Pré-requisitos
 - Antes da instalação da extensão, os pré-requisitos mencionados [aqui](https://community.appdynamics.com/t5/Knowledge-Base/Extensions-Prerequisites-Guide/ta-p/35213) precisam ser atendidos. Não prossiga com a instalação da extensão se os pré-requisitos especificados não forem atendidos.
 
-- Download and install [Apache Maven](https://maven.apache.org/) which is configured with `Java 8` to build the extension artifact from source. You can check the java version used in maven using command `mvn -v` or `mvn --version`. If your maven is using some other java version then please download java 8 for your platform and set JAVA_HOME parameter before starting maven.
+- Baixe e instale [Apache Maven](https://maven.apache.org/) que está configurado com `Java 8` para construir o artefato de extensão a partir da fonte. Você pode verificar a versão do java usada no maven usando o comando `mvn -v` ou `mvn --version`. Se o seu maven estiver usando alguma outra versão do java, faça o download do java 8 para sua plataforma e defina o parâmetro JAVA_HOME antes de iniciar o maven.
 
 - This extension requires that the user provide their own Jar file in order to connect to the Database. This is very essential in order to establish a connection with the Database to get the metrics.
 
