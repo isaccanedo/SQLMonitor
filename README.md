@@ -8,8 +8,8 @@ A conexão com o banco de dados é estabelecida por meio de uma conexão JDBC
 e você terá que usar um arquivo jar do driver JDBC "conector" para ter o
 extensão conectar e consultar o banco de dados.
 
-The metrics reported by the extension can be modified as per the user's requirements.
- This extension can be used to query and pull metrics from any SQL based database.
+As métricas relatadas pela extensão podem ser modificadas de acordo com os requisitos do usuário.
+  Essa extensão pode ser usada para consultar e extrair métricas de qualquer banco de dados baseado em SQL.
  
  
 
