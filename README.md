@@ -9,12 +9,10 @@ e você terá que usar um arquivo jar do driver JDBC "conector" para ter o
 extensão conectar e consultar o banco de dados.
 
 As métricas relatadas pela extensão podem ser modificadas de acordo com os requisitos do usuário.
-  Essa extensão pode ser usada para consultar e extrair métricas de qualquer banco de dados baseado em SQL.
- 
- 
+Essa extensão pode ser usada para consultar e extrair métricas de qualquer banco de dados baseado em SQL. 
 
-## Prerequisites 
-- Before the extension is installed, the prerequisites mentioned [here](https://community.appdynamics.com/t5/Knowledge-Base/Extensions-Prerequisites-Guide/ta-p/35213) need to be met. Please do not proceed with the extension installation if the specified prerequisites are not met.
+## Pré-requisitos
+- Antes da instalação da extensão, os pré-requisitos mencionados [aqui](https://community.appdynamics.com/t5/Knowledge-Base/Extensions-Prerequisites-Guide/ta-p/35213) precisam ser atendidos. Não prossiga com a instalação da extensão se os pré-requisitos especificados não forem atendidos.
 
 - Download and install [Apache Maven](https://maven.apache.org/) which is configured with `Java 8` to build the extension artifact from source. You can check the java version used in maven using command `mvn -v` or `mvn --version`. If your maven is using some other java version then please download java 8 for your platform and set JAVA_HOME parameter before starting maven.
 
