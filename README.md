@@ -1,4 +1,4 @@
-SQL Monitoring Extension
+Extensão de monitoramento SQL
 ====================================
 
 ## Use Case 
