@@ -16,7 +16,7 @@ Essa extensão pode ser usada para consultar e extrair métricas de qualquer ban
 
 - Baixe e instale [Apache Maven](https://maven.apache.org/) que está configurado com `Java 8` para construir o artefato de extensão a partir da fonte. Você pode verificar a versão do java usada no maven usando o comando `mvn -v` ou `mvn --version`. Se o seu maven estiver usando alguma outra versão do java, faça o download do java 8 para sua plataforma e defina o parâmetro JAVA_HOME antes de iniciar o maven.
 
-- This extension requires that the user provide their own Jar file in order to connect to the Database. This is very essential in order to establish a connection with the Database to get the metrics.
+- Esta extensão requer que o usuário forneça seu próprio arquivo Jar para se conectar ao banco de dados. Isso é muito essencial para estabelecer uma conexão com o banco de dados para obter as métricas.
 
 - The extension needs to be able to connect to the database in order to collect and send metrics. To do this, you will have to either establish a remote connection in between the extension and the product, or have an agent on the same machine running the product in order for the extension to collect and send the metrics.
 
