@@ -18,7 +18,7 @@ Essa extensão pode ser usada para consultar e extrair métricas de qualquer ban
 
 - Esta extensão requer que o usuário forneça seu próprio arquivo Jar para se conectar ao banco de dados. Isso é muito essencial para estabelecer uma conexão com o banco de dados para obter as métricas.
 
-- The extension needs to be able to connect to the database in order to collect and send metrics. To do this, you will have to either establish a remote connection in between the extension and the product, or have an agent on the same machine running the product in order for the extension to collect and send the metrics.
+- A extensão precisa ser capaz de se conectar ao banco de dados para coletar e enviar métricas. Para fazer isso, você terá que estabelecer uma conexão remota entre a extensão e o produto ou ter um agente na mesma máquina executando o produto para que a extensão colete e envie as métricas.
 
 
 ## Installation 
